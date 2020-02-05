@@ -10,45 +10,71 @@
 
         <div style="background: #f1f1f1;">
             <a href="https://www.google.com/">
-                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google" width="100px;" style="padding: 20px 10px 10px 10px;">
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google" width="110px;" style="padding: 20px 10px 10px 10px;">
             </a>
         </div>
 
-        <form action="https://google.com/search"></form>
+        <div class="bodyFormat" style="margin: 10px 25px -15px 25px !important;">
             <div class="row">
-                <div class="col-2">
-                    <p>all these words: </p>
-                </div>
-                <div class="col-10">
-                    <input type="text" name="as_q">                        
+                <div class="col-12" style="color: #dd4b39;">
+                    <h5>Advanced Search</h5>
                 </div>
             </div>
+        </div>
+        <hr>
+
+        <div class="bodyFormat">
             <div class="row">
-                <div class="col-2">
-                    <p>this exact word or phrase: </p>
-                </div>
-                <div class="col-10">
-                    <input type="text" name="as_epq">                        
+                <div class="col-12">
+                    <h6>Find pages with...</h6>
+                    <br>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-2">
-                    <p>any of these words: </p>
+            <form action="https://google.com/search"></form>
+                <div class="row">
+                    <div class="col-2">
+                        <p class="advancedSearchLabel">all these words: </p>
+                    </div>
+                    <div class="col-5">
+                        <input class="advancedInput" type="text" name="as_q">                        
+                    </div>
                 </div>
-                <div class="col-10">
-                    <input type="text" name="as_oq">                        
+                <div class="row">
+                    <div class="col-2">
+                        <p class="advancedSearchLabel">this exact word or phrase: </p>
+                    </div>
+                    <div class="col-5">
+                        <input class="advancedInput" type="text" name="as_epq">                        
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-2">
-                    <p>none of these words: </p>
+                <div class="row">
+                    <div class="col-2">
+                        <p class="advancedSearchLabel">any of these words: </p>
+                    </div>
+                    <div class="col-5">
+                        <input class="advancedInput" type="text" name="as_oq">                        
+                    </div>
                 </div>
-                <div class="col-10">
-                    <input type="text" name="as_eq">
+                <div class="row">
+                    <div class="col-2">
+                        <p class="advancedSearchLabel">none of these words: </p>
+                    </div>
+                    <div class="col-5">
+                        <input class="advancedInput" type="text" name="as_eq">
+                    </div>
                 </div>
-            </div>
-                <input type="submit" value="Google Search">
+                <div class="row">
+                    <div class="col-2">
+                    </div>
+                    <div class="col-5" style="text-align: right;" >
+                        <button type="submit" class="advancedButton">Advanced Search</button>
+                    </div>
+                    <div class="col-5">
+                    </div>
+                </div>
             </form>
+        </div>
+        
         
         
     </body>

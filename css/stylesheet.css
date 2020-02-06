@@ -92,9 +92,35 @@ svg{
     color: #9AA0A6;
     fill: currentColor;
     right: 48.5%;
-    top: 38.5%;
 }
 
+.img_svg{
+    position: fixed;
+    padding-top: 0;
+    color: rgb(15, 97, 179);
+    fill: currentColor;
+    right: 30%;
+    width: 20px;
+    height: 20px;
+}
+
+.img_button{
+    background-image: none;
+    background-color: none;;
+    border: none;;
+    border-radius: none;;
+    color: none;;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0;
+    line-height: 0;
+    height: 0;
+    min-width: 0;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
 
 .button {
     background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);

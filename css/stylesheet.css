@@ -105,21 +105,10 @@ svg{
 }
 
 .img_button{
-    background-image: none;
-    background-color: none;;
-    border: none;;
-    border-radius: none;;
-    color: none;;
-    font-family: arial,sans-serif;
-    font-size: 14px;
-    margin: 0px;
-    padding: 0;
-    line-height: 0;
-    height: 0;
-    min-width: 0;
-    text-align: center;
     cursor: pointer;
-    user-select: none;
+    display: contents;
+    flex: 0 0 auto;
+    padding-right: 13px;
 }
 
 .button {
@@ -177,3 +166,48 @@ svg{
     padding-right: 5px;
 }
 
+@media all and (min-width: 1660px) {
+    .img_svg{
+        right: 100%;
+    }
+}
+@media all and (min-width: 1600px) {
+    .img_svg{
+        right: 45%;
+    }
+}
+@media all and (min-width: 1434px) {
+    .img_svg{
+        right: 33%;
+    }
+}
+@media all and (max-width: 1300px) {
+    .img_svg{
+        right: 28%;
+    }
+}
+@media all and (max-width: 1150px) {
+    .img_svg{
+        right: 25%;
+    }
+}
+@media all and (max-width: 1000px) {
+    .img_svg{
+        right: 21%;
+    }
+}
+@media all and (max-width: 850px) {
+    .img_svg{
+        right: 16%;
+    }
+}
+@media all and (max-width: 700px) {
+    .img_svg{
+        right: 9%;
+    }
+}
+@media all and (max-width: 588px) {
+    .img_svg{
+        right: 3%;
+    }
+}
